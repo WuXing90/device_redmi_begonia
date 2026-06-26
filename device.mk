@@ -114,9 +114,6 @@ PRODUCT_PACKAGES += \
     libhwc2on1adapter \
     libhwc2onfbadapter
 
-PRODUCT_PACKAGES += \
-    disable_configstore
-
 # Dolby
 PRODUCT_PACKAGES += \
     LunarisDolby

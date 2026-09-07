@@ -74,3 +74,6 @@ allow cameraserver MJC_device:chr_file { read write ioctl open };
 
 # Purpose: Need to obtain permission to access GPU
 allow cameraserver sw_sync_device:chr_file {open read write ioctl getattr};
+
+# Torch
+allow cameraserver vendor_torch_sysfs:file rw_file_perms;

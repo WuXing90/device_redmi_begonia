@@ -83,6 +83,8 @@ PRODUCT_PACKAGES += \
     libpng.vendor \
     liblz4.vendor
 
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.begonia)
+
 # Lineage Health
 $(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
 

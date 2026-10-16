@@ -337,7 +337,8 @@ PRODUCT_COPY_FILES += \
 
 # MTK In-Call volumes adjusting service
 PRODUCT_PACKAGES += \
-    MtkInCallService
+    MtkInCallService \
+    libshim_vtservice
 
 # Ramdisk
 PRODUCT_PACKAGES += \

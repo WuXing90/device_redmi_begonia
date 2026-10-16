@@ -53,3 +53,10 @@ persist.sys.recovery_update  u:object_r:persist_recovery_update_prop:s0
 
 # Thermal
 vendor.sys.thermal.     u:object_r:thermal_engine_prop:s0
+
+# ViLTE / VTService
+persist.vendor.radio.sim.opid u:object_r:vendor_mtk_vendor_vt_prop:s0
+ro.vendor.mtk_data_config     u:object_r:vendor_mtk_vendor_vt_prop:s0
+vendor.mtk.ext.venc.          u:object_r:vendor_mtk_vendor_vt_prop:s0
+vendor.mtk.venc.              u:object_r:vendor_mtk_vendor_vt_prop:s0
+vendor.source.test            u:object_r:vendor_mtk_vendor_vt_prop:s0

@@ -1040,16 +1040,6 @@ vendor/lib64/libcodec2_vpp_rs_plugin.so|a0c369a4aeb4766d2372e00c79fdd2b5e7125441
 vendor/lib64/libformatter.so:vendor/lib64/libformatter_mtk.so;FIX_SONAME|c32f5fc075a4cfa034aeb7f8d2c71305e3181aef
 vendor/lib64/libsfplugin_ccodec_utils.so:vendor/lib64/libsfplugin_ccodec_utils-v31.so;FIX_SONAME|d4df8e8dcb2a32c9421fb5523ef9ee3e628722ef
 
-# MTK Media Extractors
-lib64/extractors/libmtkadpcmextractor.so
-lib64/extractors/libmtkalacextractor.so
-lib64/extractors/libmtkapeextractor.so
-lib64/extractors/libmtkasfextractor.so
-lib64/extractors/libmtkaviextractor.so
-lib64/extractors/libmtkflvextractor.so
-lib64/extractors/libmtkmp3extractor.so
-lib64/extractors/libmtkmpeg2extractor.so
-
 # NFC
 vendor/etc/nxp/Phone_bt_bt.bin
 vendor/etc/nxp/Phone_hsmic_hs.bin

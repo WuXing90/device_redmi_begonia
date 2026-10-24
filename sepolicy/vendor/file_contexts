@@ -291,15 +291,6 @@
 /vendor/lib/libDR\.so                                                           u:object_r:same_process_hal_file:s0
 /vendor/lib/libHEVCdec_sa\.ca7\.android\.so                                     u:object_r:same_process_hal_file:s0
 /vendor/lib/libJpgEncPipe\.so                                                   u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxAdpcmDec\.so                                               u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxAlacDec\.so                                                u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxApeDec\.so                                                 u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxCore\.so                                                   u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxG711Dec\.so                                                u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxGsmDec\.so                                                 u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxMp3Dec\.so                                                 u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxVdecEx\.so                                                 u:object_r:same_process_hal_file:s0
-/vendor/lib/libMtkOmxVenc\.so                                                   u:object_r:same_process_hal_file:s0
 /vendor/lib/libMtkSpeechEnh\.so                                                 u:object_r:same_process_hal_file:s0
 /vendor/lib/lib_iir\.so                                                         u:object_r:same_process_hal_file:s0
 /vendor/lib/lib_smartpa_nxp_ap\.so                                              u:object_r:same_process_hal_file:s0

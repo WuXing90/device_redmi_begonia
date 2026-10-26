@@ -398,7 +398,7 @@ AB_OTA_UPDATER := false
 PRODUCT_SOONG_NAMESPACES += bootable/deprecated-ota
 
 # USB
-$(call soong_config_set,android_hardware_mediatek_usb,audio_accessory_supported,true)
+$(call soong_config_set_bool,android_hardware_mediatek_usb,audio_accessory_supported,true)
 PRODUCT_PACKAGES += \
     android.hardware.usb.gadget@1.0.vendor \
     android.hardware.usb.gadget@1.1.vendor \
@@ -409,7 +409,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
 
-$(call soong_config_set,mediatek_vibrator,supports_effects,true)
+$(call soong_config_set_bool,mediatek_vibrator,supports_effects,true)
 
 # VNDK
 PRODUCT_COPY_FILES += \
